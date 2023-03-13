@@ -4,11 +4,11 @@ import os
 
 API_ID = os.environ["API_ID"]
 API_KEY = os.environ["API_KEY"]
-SHEETY_END_POINT = os.environ["SHEETY_END_POINT"]
+SHEETY_END_POINT = os.environ["SHEETY_END_POINT"] #END POINT OF SHEETY
 TOKEN = os.environ["TOKEN"]
 print(API_ID)
 print(API_KEY)
-END_POINT = "https://trackapi.nutritionix.com/v2/natural/exercise"
+END_POINT = "https://trackapi.nutritionix.com/v2/natural/exercise" #END POINT OF NUTRITIONIX
 
 sheety_header = {
     "Authorization": TOKEN
